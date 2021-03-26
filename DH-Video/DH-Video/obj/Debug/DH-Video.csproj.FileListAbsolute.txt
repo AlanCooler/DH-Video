@@ -13,3 +13,4 @@ C:\Users\musin\Projects\Video Player\DH-Video\DH-Video\DH-Video\obj\Debug\DH-Vid
 C:\Users\musin\Projects\Video Player\DH-Video\DH-Video\DH-Video\obj\Debug\DH-Video.csproj.CoreCompileInputs.cache
 C:\Users\musin\Projects\Video Player\DH-Video\DH-Video\DH-Video\obj\Debug\DH_Video.exe
 C:\Users\musin\Projects\Video Player\DH-Video\DH-Video\DH-Video\obj\Debug\DH_Video.pdb
+C:\Users\musin\Projects\Video Player\DH-Video\DH-Video\DH-Video\obj\Debug\GeneratedInternalTypeHelper.g.cs
