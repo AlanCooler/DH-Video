@@ -1,0 +1,15 @@
+C:\Users\musin\Projects\Video Player\DH-Video\DH-Video\DH-Video\bin\Debug\DH_Video.exe.config
+C:\Users\musin\Projects\Video Player\DH-Video\DH-Video\DH-Video\bin\Debug\DH_Video.exe
+C:\Users\musin\Projects\Video Player\DH-Video\DH-Video\DH-Video\bin\Debug\DH_Video.pdb
+C:\Users\musin\Projects\Video Player\DH-Video\DH-Video\DH-Video\obj\Debug\DH-Video.csprojAssemblyReference.cache
+C:\Users\musin\Projects\Video Player\DH-Video\DH-Video\DH-Video\obj\Debug\MainWindow.g.cs
+C:\Users\musin\Projects\Video Player\DH-Video\DH-Video\DH-Video\obj\Debug\App.g.cs
+C:\Users\musin\Projects\Video Player\DH-Video\DH-Video\DH-Video\obj\Debug\DH_Video_MarkupCompile.cache
+C:\Users\musin\Projects\Video Player\DH-Video\DH-Video\DH-Video\obj\Debug\DH_Video_MarkupCompile.lref
+C:\Users\musin\Projects\Video Player\DH-Video\DH-Video\DH-Video\obj\Debug\MainWindow.baml
+C:\Users\musin\Projects\Video Player\DH-Video\DH-Video\DH-Video\obj\Debug\DH_Video.g.resources
+C:\Users\musin\Projects\Video Player\DH-Video\DH-Video\DH-Video\obj\Debug\DH_Video.Properties.Resources.resources
+C:\Users\musin\Projects\Video Player\DH-Video\DH-Video\DH-Video\obj\Debug\DH-Video.csproj.GenerateResource.cache
+C:\Users\musin\Projects\Video Player\DH-Video\DH-Video\DH-Video\obj\Debug\DH-Video.csproj.CoreCompileInputs.cache
+C:\Users\musin\Projects\Video Player\DH-Video\DH-Video\DH-Video\obj\Debug\DH_Video.exe
+C:\Users\musin\Projects\Video Player\DH-Video\DH-Video\DH-Video\obj\Debug\DH_Video.pdb
