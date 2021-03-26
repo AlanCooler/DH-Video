@@ -52,6 +52,7 @@
         </ApplicationDefinition>
         <Compile Include="Libs\BaseViewModel.cs" />
         <Compile Include="Libs\RelayCommand.cs" />
+        <Compile Include="Models\VideoModel.cs" />
         <Compile Include="Properties\Annotations.cs" />
         <Compile Include="ViewModels\MainWindowViewModel.cs" />
         <Page Include="MainWindow.xaml">
@@ -83,9 +84,6 @@
     </ItemGroup>
     <ItemGroup>
         <None Include="App.config" />
-    </ItemGroup>
-    <ItemGroup>
-      <Folder Include="Models" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
