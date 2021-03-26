@@ -51,6 +51,7 @@
             <SubType>Designer</SubType>
         </ApplicationDefinition>
         <Compile Include="Libs\BaseViewModel.cs" />
+        <Compile Include="Libs\RelayCommand.cs" />
         <Compile Include="Properties\Annotations.cs" />
         <Compile Include="ViewModels\MainWindowViewModel.cs" />
         <Page Include="MainWindow.xaml">

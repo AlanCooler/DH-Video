@@ -6,6 +6,7 @@
  *  2020 Copyright  
  */
 
+using System.Windows.Media;
 using DH_Video.Libs;
 
 namespace DH_Video.ViewModels
@@ -27,6 +28,16 @@ namespace DH_Video.ViewModels
         }
         private string _currentVideoName = "DH Video";
 
+
+        public MediaTimeline TimeLine { get; set; }
+
+
+
+        #region Commands
+
         
+
+        #endregion
+
     }
 }
