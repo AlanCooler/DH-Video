@@ -11,11 +11,9 @@
         Title="{Binding CurrentVideoName, Mode=OneWay}" Height="350" Width="525"
         WindowState="Maximized"
         >
-    <Window.DataContext>
-        <viewmodel:MainWindowViewModel/>
-    </Window.DataContext>
-    
     <Grid Background="Transparent">
-        <MediaElement/>
+        <Button Command="{Binding AddVideo}" Height="15"/>
+        <MediaElement x:Name="VideoPresenter"
+                      LoadedBehavior="Manual" UnloadedBehavior="Close"/>
     </Grid>
 </Window>

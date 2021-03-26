@@ -1,4 +1,6 @@
-﻿namespace DH_Video
+﻿using DH_Video.ViewModels;
+
+namespace DH_Video
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -8,6 +10,8 @@
         public MainWindow()
         {
             InitializeComponent();
+
+            this.DataContext = new MainWindowViewModel(ref VideoPresenter);
         }
     }
 }

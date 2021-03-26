@@ -37,6 +37,7 @@ namespace DH_Video.Libs
         {
             mAction = action;
         }
+        
         public event EventHandler CanExecuteChanged;
     }
 }
