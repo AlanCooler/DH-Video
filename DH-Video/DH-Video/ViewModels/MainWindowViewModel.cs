@@ -7,6 +7,7 @@
  */
 
 using System;
+using System.Reflection;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
@@ -43,7 +44,8 @@ namespace DH_Video.ViewModels
         #region Commands
 
         public ICommand AddVideo { get; set; }
-
+        public ICommand StopVideo { get; set; }
+        
         #endregion
 
         #region Constructor
@@ -51,7 +53,6 @@ namespace DH_Video.ViewModels
         public MainWindowViewModel(ref MediaElement videoPresenter)
         {
             VideoPresenter = videoPresenter;
-            
             string selectionPath;
             
             
@@ -66,6 +67,7 @@ namespace DH_Video.ViewModels
                             Title = "Choose video...",
                             Filter = "MP4 File|*.mp4|All File|*.*"
                         };
+                    
                     // Finish executing this command
                     // ReSharper disable once PossibleInvalidOperationException
                     if (!(bool) selectVideoDialogWindow.ShowDialog()) return;
@@ -84,6 +86,20 @@ namespace DH_Video.ViewModels
                 {
                     MessageBox.Show(ex.Message);
                 }
+            });
+
+            StopVideo = new RelayCommand(() =>
+            {
+                try
+                {
+                    SelectionVideoStoryboard.Stop();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+                
+
             });
         }
 

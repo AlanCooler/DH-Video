@@ -16,11 +16,15 @@
         
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
-            <RowDefinition Height="15"/>
+            <RowDefinition Height="25"/>
         </Grid.RowDefinitions>
         <MediaElement Grid.Row="0" x:Name="VideoPresenter"
                       LoadedBehavior="Manual" UnloadedBehavior="Close"/>
-        <Button Grid.Row="1" Command="{Binding AddVideo}" Content="Enter MP4 file" Height="15"/>
-
+        
+        <StackPanel Grid.Row="1" Orientation="Horizontal">
+            <Button Command="{Binding AddVideo}" Content="Enter MP4 file" Height="20"/>    
+            <Button Command="{Binding StopVideo}" Content="Stop" Height="20"/>    
+        </StackPanel>
+        
     </Grid>
 </Window>
